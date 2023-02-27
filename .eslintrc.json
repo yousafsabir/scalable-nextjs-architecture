@@ -1,10 +1,6 @@
 {
   // extended existing rules
-  "extends": [
-    "next",
-    "next/core-web-vitals",
-    "eslint:recommended"
-  ],
+  "extends": ["next", "next/core-web-vitals", "eslint:recommended"],
   // As we don't need to import React in each component, so to make sure eslint doesn't warn us about it
   "globals": {
     "React": "readonly"
