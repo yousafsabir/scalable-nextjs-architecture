@@ -8,7 +8,7 @@
     "npm": "Please use Yarn, npm not allowed for security reasons"
   },
   "scripts": {
-    "dev": "next dev",
+    "dev": "cross-env NODE_OPTIONS='--inspect' next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
